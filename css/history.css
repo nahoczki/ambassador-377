@@ -1,7 +1,7 @@
 .history-main-header {
-    height: 25vh;
+    height: 40vh;
     background-image: url("../assets/mural.jpg");
-    background-position: 0 -250px;
+    background-position: 0 -150px;
 }
 
 .history-container {
@@ -17,6 +17,7 @@ img {
     width: 350px;
     height: 350px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .poem-title {

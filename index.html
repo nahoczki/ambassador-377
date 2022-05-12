@@ -14,6 +14,14 @@
 </head>
 
 <body>
+<div class="navigation-bar" id="nav">
+	<ul>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./pages/menu.html">Menu</a></li>
+		<li><a href="./pages/history.html">History</a></li>
+		<li><a href="./pages/takenbake.html">Take N' Bake</a></li>
+	</ul>
+</div>
 <div class="main-header page-header">
 	<span class="ambassador-font caption-text text-shadow">the</span>
 	<span class="ambassador-font header-text text-shadow">Ambassador</span>
@@ -133,5 +141,17 @@
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <script>
 	feather.replace()
+</script>
+<script
+		src="https://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$(window).on("scroll", function() {
+			console.log($(document).scrollTop())
+			$("#nav").toggleClass("scrolled", $(document).scrollTop() > 190);
+		})
+	});
 </script>
 </html>
