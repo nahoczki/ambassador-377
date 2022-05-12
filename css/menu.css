@@ -1,0 +1,149 @@
+img {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu-main-header {
+    height: 25vh;
+    background-position: bottom;
+    background-image: url("../assets/IMG_0085.jpg");
+}
+
+.menu-grid {
+    display: grid;
+    margin: 75px 15%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.menu-item {
+    padding: 20px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-header > .title {
+    font-size: 25px;
+    font-weight: var(--mediumWeight);
+    text-transform: uppercase;
+}
+
+.item-header > .price {
+    color: gray;
+}
+
+.item-description {
+    font-size: 16px;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    color: #c2c2c2;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: span 3;
+}
+
+.divider > .divider-header {
+    font-size: 20px;
+    font-weight: var(--semiBoldWeight);
+}
+
+.divider-next-level-header {
+    font-size: 18px;
+    font-weight: var(--mediumWeight);
+}
+
+.divider-subheader {
+    width: 60%;
+}
+
+.special-cell {
+    grid-row: 2 span;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.special-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.special-header > .title {
+    font-size: 25px;
+    font-weight: var(--mediumWeight);
+    text-transform: none;
+    text-align: center;
+}
+
+.special-header > .price {
+    color: gray;
+}
+
+.build-your-own-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.build-your-own-section > .price {
+
+}
+
+.build-your-own-section > .description {
+
+}
+
+.directions {
+    color: gray;
+    font-size: 13px;
+}
+
+.build-your-own-header {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.build-your-own-header > .title {
+    font-size: 20px;
+    font-weight: var(--mediumWeight);
+    text-decoration: underline;
+}
+
+.build-your-own-header > .description {
+
+}

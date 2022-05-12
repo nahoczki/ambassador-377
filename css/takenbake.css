@@ -1,0 +1,77 @@
+.takenbake-main-header {
+    height: 30vh;
+    background-image: url("../assets/IMG_0229.jpg");
+    background-position: 0 -250px;
+}
+
+.takenbake-container {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 15%;
+}
+
+.option-container {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 200px 300px;
+    grid-template-rows: 250px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.option-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.option-box > .option-title {
+    font-size: 20px;
+    font-weight: var(--semiBoldWeight);
+}
+
+.or-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.instructions-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instruction-cell {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.instruction-cell > .number {
+    font-size: 20px;
+    font-weight: var(--semiBoldWeight);
+    color: gray;
+}
+
+.instruction-cell > .instruction-text {
+    font-size: 18px;
+    font-weight: var(--mediumWeight);
+}
+
+hr {
+    width: 100%;
+    color: gray;
+    opacity: 20%;
+}

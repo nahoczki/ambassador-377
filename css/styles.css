@@ -1,0 +1,170 @@
+@font-face { font-family: "Old London Alternate"; src: url('../assets/oldlondonalternate.ttf'); }
+
+:root {
+    /*  Weights  */
+    --blackWeight: 900;
+    --extraBoldWeight: 800;
+    --boldWeight: 700;
+    --semiBoldWeight: 600;
+    --mediumWeight: 500;
+    --regularWeight: 400;
+    --lightWeight: 300;
+    --extraLightWeight: 200;
+    --thinWeight: 100;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F7F7;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.ambassador-font {
+    font-family: "Old London Alternate", sans-serif;
+}
+
+.page-header {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main-header {
+    height: 50vh;
+    background-position: bottom;
+    background-image: url("../assets/dining-room.jpg");
+}
+
+.caption-text {
+    font-size: 50px;
+}
+
+.header-text {
+    font-size: 100px;
+}
+
+.main-header > .caption-text {
+    margin-bottom: -35px;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    padding: 20px 10px;
+}
+
+.button, .button-alt {
+    width: 150px;
+    font-weight: var(--mediumWeight);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button-alt {
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+}
+
+.home-container {
+    display: grid;
+    margin: 75px 15%;
+    grid-template-columns: 1.5fr 0.5fr 1.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.section-header {
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-weight: var(--mediumWeight);
+}
+
+.section-subheader {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: var(--mediumWeight);
+}
+
+.history-section-text { grid-area: 1 / 1 / 2 / 3; }
+.history-section-image { grid-area: 1 / 3 / 2 / 4; }
+.reviews-section { grid-area: 2 / 1 / 3 / 4; }
+.location-section-text { grid-area: 3 / 1 / 4 / 2; }
+.location-section-map { grid-area: 3 / 2 / 4 / 4; }
+
+.hours-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.sm-rounded {
+    border-radius: 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+

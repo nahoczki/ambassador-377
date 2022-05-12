@@ -1,0 +1,28 @@
+.history-main-header {
+    height: 25vh;
+    background-image: url("../assets/mural.jpg");
+    background-position: 0 -250px;
+}
+
+.history-container {
+    margin: 75px 15%;
+}
+
+.history-intro-text {
+    font-size: 18px;
+}
+
+img {
+    float: right;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.poem-title {
+    font-size: 40px;
+}
+
+.poem {
+    font-size: 20px;
+}
