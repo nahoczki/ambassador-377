@@ -38,6 +38,11 @@ img {
 
 .navigation-bar {
     top: 0;
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     transition: background 0.3s;
     width: 100%;
@@ -47,24 +52,30 @@ img {
     height: 56.6px;
 }
 
-.navigation-bar > ul {
+.navigation-bar > div > .navigation-logo {
+    font-size: 50px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation-bar > div > ul {
     padding: 0;
     list-style-type: none;
 }
 
-.navigation-bar > ul > li {
+.navigation-bar > div > ul > li {
     display: inline-block;
     margin: 0 15px;
 }
 
-.navigation-bar > ul > li > a {
+.navigation-bar > div > ul > li > a {
     color: inherit;
     text-decoration: none;
     padding: 20px;
     background-color: transparent;
 }
 
-.navigation-bar > ul > li > a:hover {
+.navigation-bar > div > ul > li > a:hover {
     color: white;
     background-color: black;
 }
@@ -75,7 +86,7 @@ img {
     color: white;
 }
 
-.navigation-bar.scrolled > ul > li > a:hover {
+.navigation-bar.scrolled > div > ul > li > a:hover {
     color: black;
     background-color: white;
 }
@@ -164,7 +175,7 @@ img {
 }
 
 .section-header {
-    font-size: 23px;
+    font-size: 50px;
     margin-bottom: 5px;
     font-weight: var(--mediumWeight);
 }

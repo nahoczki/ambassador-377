@@ -15,30 +15,150 @@
 </head>
 <body>
     <div class="navigation-bar" id="nav">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./history.html">History</a></li>
-            <li><a href="./takenbake.html">Take N' Bake</a></li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./history.html">History</a></li>
+                <li><a href="./takenbake.html">Take N' Bake</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="../index.html" class="navigation-logo ambassador-font">Ambassador</a>
+        </div>
     </div>
+    <button onclick="topFunction()" class="back-to-top-button" id="back-to-top-button" title="Go to top">Back to Top</button>
     <div class="menu-main-header page-header">
         <span class="ambassador-font header-text text-shadow">Our Menu</span>
     </div>
     <div class="menu-grid">
         <div class="divider">
+            <div class="section-navigation-header ambassador-font">
+                Navigate
+            </div>
             <div class="navigation">
+                <a href="#appetizers">Appetizers</a> |
                 <a href="#pizza">Pizza</a> |
                 <a href="#pasta">Pasta</a> |
                 <a href="#salads">Salads</a> |
                 <a href="#sandwiches">Sandwiches</a> |
-                <a href="#spirits">Spirits</a> |
-                <a href="#appetizers">Appetizers</a>
+                <a href="#spirits">Spirits</a>
             </div>
         </div>
+
+        <!--  Start of Appetizers   -->
+        <div class="divider" id="appetizers">
+            <span class="divider-header ambassador-font">Appetizers</span>
+            <span class="divider-subheader">Browse our perfect starters!</span>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">NACHOS</span>
+                <span class="price">$4</span>
+            </div>
+            <span class="item-description">
+                Basket of Corn Tortilla Chips with 8oz Hot Nacho Cheese
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span class="directions">Additions</span>
+                <span>Homemade Salsa 8oz .... $1</span>
+                <span>Sour Cream 4oz .................. $.80</span>
+                <span>Jalapenos 4oz ..................... $.80</span>
+                <span>Basket of Chips ................... $2</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">BAKED POTATO SHELLS</span>
+                <span class="price">$6</span>
+            </div>
+            <span class="item-description">
+                <span class="directions">Allow 15 minutes</span><br/>
+                Filled with Sautéed Italian Onion Sausage , Wisconsin Cheddar and Parmesan Cheese, Served with Sour Cream.
+            </span>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">BAKED CHICKEN WINGS</span>
+                <span class="price">$7</span>
+            </div>
+            <span class="item-description">
+                <span class="directions">Allow 15 minutes</span><br/>
+                Spicy Buffalo Hot Sauce
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span class="directions">Additions</span>
+                <span>Ranch or Blue Cheese 4oz. ... $1</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">FRESH BAKED GARLIC TOAST BASKET</span>
+                <span class="price">$3</span>
+            </div>
+            <hr/>
+            <div class="price-section">
+                <span class="directions">Additions</span>
+                <span>House-made Ranch Dressing .... $1</span>
+                <span>Slow Cooked House-made Spaghetti Sauce .... $2</span>
+                <span>House-made Pizza Sauce .... $1</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">SAVORY ITALIAN MEATBALLS</span>
+            </div>
+            <span class="item-description">
+                Topped with Shredded Parmesan Cheese and served with House-made Pizza Sauce
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span>Small (6) $4</span>
+                <span>Large (10) $7</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">BEEF or BEAN TACO</span>
+            </div>
+            <span class="item-description">
+                House-made Tostada Beef, Shredded Lettuce, Wisconsin Cheddar Cheese, Diced Tomatoes, and Tostada Hot Sauce.
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span>Hard Corn Tortilla $2</span>
+                <span>Soft Flour Tortilla $3</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">BURRITO</span>
+                <span class="price">$4</span>
+            </div>
+            <span class="item-description">
+                Soft Flour Tortilla filled with House-made Refried Beans and Tostada Beef, Wisconsin Cheddar Cheese, Black Olives and Tostada Hot Sauce.
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span class="directions">Additions</span>
+                <span>Sour Cream or Nacho Cheese $1</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="title">NACHO GRANDE</span>
+                <span class="price">$4</span>
+            </div>
+            <span class="item-description">
+                Our delicious House-made Tostado Beef served on Corn Tortilla Chips and topped with Shredded Cheddar Cheese, Lettuce, Tomato and Black Olives. Served with a side of Hot Nacho Cheese.
+            </span>
+        </div>
+
         <!--    Start of pizza    -->
         <div class="divider" id="pizza">
-            <span class="divider-header">Pizza</span>
+            <span class="divider-header ambassador-font">Pizza</span>
             <span class="divider-subheader">Every Great Pizza Starts with Our Thin Crisp Crust, House-made for over 50 years!</span>
         </div>
         <div class="menu-item">
@@ -150,7 +270,7 @@
 
         <!--    Start of pasta    -->
         <div class="divider" id="pasta">
-            <span class="divider-header">Pasta</span>
+            <span class="divider-header ambassador-font">Pasta</span>
             <span class="divider-subheader">Made with our Homemade Sauce using Meat, seven different Spices, topped with a dash of Grated Parmesan and served with Fresh Baked Garlic Toast.</span>
         </div>
         <div class="menu-item">
@@ -227,7 +347,7 @@
 
         <!--  Start of Salads   -->
         <div class="divider" id="salads">
-            <span class="divider-header">Salads</span>
+            <span class="divider-header ambassador-font">Salads</span>
             <span class="divider-subheader">A Meal In A Bowl • Please, No Substitutions</span>
 
             <span>Salads can be made with fresh Baby Spinach or Fresh Cut Romaine Lettuce for an additional <em>$2</em></span>
@@ -347,7 +467,7 @@
 
         <!--   Start of sandwiches     -->
         <div class="divider" id="sandwiches">
-            <span class="divider-header">Sandwiches</span>
+            <span class="divider-header ambassador-font">Sandwiches</span>
         </div>
         <div class="divider">
             <span class="divider-next-level-header">Ambassador Submarine Sandwiches</span>
@@ -560,6 +680,260 @@
             </div>
         </div>
 
+        <!--  Start of Spirits   -->
+        <div class="divider" id="spirits">
+            <span class="divider-header ambassador-font">Spirits</span>
+            <span class="divider-subheader">25 ounce Spirits</span>
+
+            <span class="directions"><em>Strawberry Daiquiri and Pina Colada have an optional smaller 10 oz.</em></span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">PINA COLADA</span>
+            </div>
+            <span class="item-description">
+                Rum, Pineapple Juice and Coconut Cream
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span>Fish Bowl 25 oz. $9</span>
+                <span>Smaller sized 10 oz. $4</span>
+            </div>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">SCORPION</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Exotic Blend of Pineapple and Orange Juice, Gin, Rum and Creme de Almond
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">PIRATE’S COVE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Spiced Rum, Blue Curacao, Lime Juice and Squirt.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">AMBASSADOR LONG ISLAND</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Whiskey, Rum, Vodka, Triple Sec, Lemon Juice and Coke
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">LONG ALASKAN</span>
+                <span class="price">$9</span>
+            </div>
+            <span class="item-description">
+                LONG ALASKAN
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">FROSTY COOLER</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Lime Vodka, Gin, Sprite and Lemon Juice.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">QUALUDE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Vodka, Southern Comfort, Creme de Almond,Triple Sec, Orange Juice and Sprite.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">PURPLE RAIN</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+                Creme de Almond, Blue Curacao, Rum, Lime Juice and Squirt.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">OCEAN BREEZE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Rum, Vodka, Triple Sec, Cranberry Juice and Orange Juice.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">ZOMBIE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Rum, Apricot Brandy, Pineapple Juice
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">MAITAI </span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Tropical Blend of Rum, Triple Sec, Sugar and Pineapple Juice.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">RASPBERRY LEMONADE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Whiskey, Triple Sec, Raspberry Schnapps, Sprite and Lemon Juice.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">VACATION?</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Whiskey, Peach Schnapps, Pineapple Juice, and Squirt
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">SWEET TART</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Vodka, Blue Curacao, Raspberry Schnapps, Triple Sec, Cranberry Juice, Sprite and Squirt.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">STRAWBERRY DAIQUIRI</span>
+            </div>
+            <span class="item-description">
+                Strawberries blended with Rum and Lemon Juice
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span>Fish Bowl 25 oz. $9</span>
+                <span>Smaller sized 10 oz. $4</span>
+            </div>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">BLUE HAWAIIAN</span>
+            </div>
+            <span class="item-description">
+                Blue Curacao, Rum, Pineapple Juice and Coconut Cream.
+            </span>
+            <hr/>
+            <div class="price-section">
+                <span>Fish Bowl 25 oz. $9</span>
+                <span>Smaller sized 10 oz. $4</span>
+            </div>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">BLUE MOTORCYCLE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+               Vodka, Blue Curacao, Triple Sec, Lemon, Lime and Squirt.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">CABANA</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+              Vodka, Rum, Creme de Banana, Orange Juice, Pineapple Juice, Grenadine
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">SNAKE JEWELS</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+              Vodka, Triple Sec, Amaretto, Lime Juice, Cranberry Juice and Sprite.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">FUN ON THE BEACH</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+              Raspberry Schnapps, Melon Liqueur, Vodka, Orange Juice and Cranberry Juice.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">SUPERIOR TIDE</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+              Rum, Blue Curacao, Triple Sec, Melon Liqueur, Lime Juice and Sprite.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">TIJUANA TAXI</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+              Tequila, Blue Curacao, Triple Sec, Lime Juice and Squirt.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">JAMAICAN TEN SPEED</span>
+                <span class="price">$9</span>
+            </div>
+            <span class="item-description">
+              Melon Liquer, Coconut Rum, Vodka, Creme de Banana, Pineapple Juice and Milk
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">CAR CRASH</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+             Sloe Gin, Creme de Almond, Southern Comfort, Rum and Sprite.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">LYNCHBURG LEMONADE</span>
+                <span class="price">$9</span>
+            </div>
+            <span class="item-description">
+             Jack Daniel’s, Triple Sec, Lemon Juice and Sprite.
+            </span>
+        </div>
+        <div class="menu-item spirit-item">
+            <div class="item-header">
+                <span class="title">BULLFROG</span>
+                <span class="price">$8</span>
+            </div>
+            <span class="item-description">
+             Southern Comfort, Melon Liqueur, Lemon Juice, Sugar and Squirt.
+            </span>
+        </div>
+        <img class="spirit-item" src="../assets/cocktails.jpg" alt="image of pasta"/>
     </div>
     <div class="footer">
         <div class="footer-logo-section footer-cell">
@@ -612,5 +986,26 @@
             $("#nav").toggleClass("scrolled", $(document).scrollTop() > 190);
         })
     });
+</script>
+<script>
+    //Get the button:
+    mybutton = document.getElementById("back-to-top-button");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 </script>
 </html>
